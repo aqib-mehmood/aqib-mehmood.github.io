@@ -1,17 +1,21 @@
+/* Colors used: 
+Neon blue (#2272FF), 
+black (#1D1D1D) */
+
 .profile-pic {
   position: relative;
-  max-width:130px;
-  max-height:130px;
+  max-width: 130px;
+  max-height: 130px;
   width: auto;
   height: auto;
   overflow: hidden;
   /* display: inline-block; */
-  
-  
+
+
   /* background-size: cover;  */
-  margin: -31px; 
-  margin-left:-7px;
-  border: 6px solid rgba(0, 77, 64, 0.4); 
+  margin: -31px;
+  margin-left: -7px;
+  border: 6px solid #2272FF;
   border-radius: 50% !important;
 }
 
@@ -24,11 +28,12 @@
   /* visibility: hidden; */
   position: fixed;
   /* margin-inline-end: auto;  */
-  bottom: 0; 
+  bottom: 0;
   right: 0;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
 .social {
   margin: 0 auto;
   width: auto;
@@ -41,7 +46,7 @@
   width: 50px;
   height: 50px;
   border: 0;
-  color: #FFFFFF;
+  color: #2272FF;
   cursor: pointer;
   font-size: 30px;
   line-height: 70px;
@@ -84,9 +89,9 @@
 .readme {
   position: relative;
   padding: 11px 35px;
-  background: #fff;
-  color: #00796b;
-  border: 2px solid #fff;
+  background: #2272FF;
+  color: #fff;
+  border: 2px solid #2272FF;
   font-weight: 600;
   font-size: 15px;
   letter-spacing: 1px;
@@ -105,7 +110,7 @@
   padding: 11px 35px;
   background: none;
   color: #fff;
-  border: 2px solid #fff;
+  border: 2px solid #2272FF;
   font-weight: 600;
   font-size: 15px;
   letter-spacing: 1px;
@@ -115,16 +120,17 @@
   -webkit-border-radius: 5px;
 }
 
-.contactme:hover{
-  color: #00796b;
-  background-color: white;
+.contactme:hover {
+  color: #fff;
+  background-color: #2272FF;
 }
+
 /* main body */
 
 /* body-color */
 
 body {
-  color: #333;
+  color: #2272FF;
   font-size: 18px;
 }
 
@@ -140,7 +146,7 @@ body {
 } */
 
 a {
-  color: #004d40;
+  color: #2272FF;
 }
 
 /* main blockqoute */
@@ -156,7 +162,7 @@ a {
 
 blockquote {
   border-left: 5px solid #795548;
-  color: #795548;
+  color: #2272FF;
   font-size: 125%;
   font-weight: 400;
   margin: 20px 0;
@@ -175,7 +181,7 @@ blockquote * {
 /* main nav */
 
 nav {
-  background: white;
+  background: #1D1D1D;
   box-shadow: none;
   height: 0;
 }
@@ -200,7 +206,9 @@ nav i {
 } */
 
 main {
-  background: url(../../assets/img/bg.png) repeat;
+  /* background: url(../../assets/img/bg.png) repeat; */
+  background-color: #1D1D1D;
+  color: #2272FF;  /* change it to white at the end*/
   padding-left: 190px;
 }
 
@@ -221,6 +229,10 @@ dt {
 
 ul.side-nav {
   width: 190px;
+  background: url(../../assets/img/bg.png) repeat;
+  /* color: #2272FF !important; */
+  /* background-color: #1D1D1D; */
+  /* background-color: #db7bff; */
 }
 
 ul.side-nav li {
@@ -237,13 +249,14 @@ ul.side-nav li {
 
 ul.side-nav.fixed a {
   box-sizing: content-box;
-  color: rgb(16, 202, 56);
+  /* color: rgb(16, 202, 56); */
   display: block;
   line-height: 100%;
   padding: 10px 0 12px;
 }
 
-ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
+ul.table-of-contents li.logo a.active,
+ul.table-of-contents li.logo a:hover {
   border: none;
   font-weight: 200;
 }
@@ -257,7 +270,7 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
 } */
 
 ul.side-nav.fixed li.logo {
-  background-color: #fafafa;
+  background-color: #2272FF;
   border-bottom: 1px solid #ddd;
   box-sizing: content-box;
   min-height: 90px;
@@ -269,13 +282,31 @@ ul.side-nav.fixed li.logo a {
   line-height: 100%;
 }
 
-ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) a:hover {
-  background-color: #fafafa;
+/* hover per text ka color */
+ul.table-of-contents li:not(.logo) a.active{
+  background-color: #1D1D1D;
   border-left: 3px solid;
 }
 
-ul.side-nav.fixed.table-of-contents li:not(.logo) a span, ul#slide-out li:not(.logo) a span {
-  color: #333 !important;
+/* hover per logo ka color */
+ul.table-of-contents li:not(.logo) a:hover{
+  background-color: #1D1D1D;
+  /* color: white !important; */
+  border-left: 3px solid;
+}
+
+ul.side-nav.fixed.table-of-contents li:not(.logo) a span,
+ul#slide-out li:not(.logo) a span {
+  color: #1d1d1d;
+}
+
+
+ul.side-nav.fixed.table-of-contents li:not(.logo) a.active span{
+  color: #fff;
+}
+
+ul.side-nav.fixed.table-of-contents li:not(.logo) a:hover span{
+  color: #fff;
 }
 
 li.logo span {
@@ -320,7 +351,7 @@ h3 {
 } */
 
 #intro.section {
-  background: #a7ffeb repeat;
+  background: #1D1D1D repeat;
   position: relative;
 }
 
@@ -428,7 +459,7 @@ h3 {
 
 .card-action span {
   font-size: 85%;
-  color: #666;
+  color: #2272FF;
 }
 
 .card ul {
@@ -473,7 +504,7 @@ a.hoverline {
 } */
 
 a.hoverline:hover {
-  border-bottom: 3px solid #004d40 !important;
+  border-bottom: 3px solid #1D1D1D !important;
 }
 
 #skills .card.large {
@@ -559,7 +590,7 @@ small {
 /* main .teal-text */
 
 .teal-text {
-  color: #008073 !important;
+  color: #2272FF !important;
 }
 
 /* .teal-text {
@@ -569,7 +600,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #008073 !important;
+  background-color: #2272FF !important;
 }
 
 /* .teal {
@@ -601,34 +632,42 @@ small {
     padding-left: 0px;
     padding-top: 64px;
   }
+
   ul.side-nav a {
     line-height: 100%;
     padding: 0;
     width: 100%;
   }
+
   nav {
     background: #fff;
     height: 64px;
     position: absolute;
   }
-  nav a.button-collapse, nav a.button-collapse i {
+
+  nav a.button-collapse,
+  nav a.button-collapse i {
     color: #009688;
     height: 56px;
     line-height: 56px;
   }
+
   h3 {
     padding: 20px 30px;
     margin-bottom: 40px;
   }
+
   .container {
     margin: 0 auto;
   }
+
   nav.hide-on-large.only.trigger {
     display: block;
     position: fixed;
     top: 0;
     z-index: 2;
   }
+
   .name-title {
     display: block;
     height: 100%;
@@ -637,25 +676,33 @@ small {
     width: 100%;
     position: absolute;
   }
-  .name-title>span, .name-title>a {
+
+  .name-title>span,
+  .name-title>a {
     position: relative;
     line-height: 20px;
   }
+
   .name-title a {
     font-size: 22px;
     display: block;
   }
+
   .name-title span {
     display: block;
     font-size: 14px;
   }
-  h3, .container {
+
+  h3,
+  .container {
     position: relative;
     top: 64px;
   }
+
   section#intro {
     margin-bottom: -64px;
   }
+
   .card .role {
     position: relative;
     right: initial;
@@ -669,35 +716,43 @@ small {
     line-height: 200%;
     margin: 30px 0 0;
   }
+
   #intro.section .container *:not(span) {
     padding: 0;
   }
+
   .card .card-content .card-title {
     font-size: 20px;
     line-height: 24px;
   }
+
   #experience span.card-title {
     text-align: center;
     display: block;
   }
+
   #experience span.card-title a {
     margin: 0;
   }
+
   i.mdi-navigation-close.right {
     position: relative;
     bottom: 15px;
   }
+
   #contact a:not(.btn-floating) {
     text-align: center;
     display: block;
     left: initial;
     bottom: initial;
   }
+
   #contact a.btn-floating.btn-large {
     display: block;
     text-align: center;
     margin: 0 auto;
   }
+
   #intro.section {
     background-position-x: 30%;
   }
