@@ -18,7 +18,7 @@ I'm a Software Quality Assurance Engineer with a focus on ensuring the quality a
 
 ## 🚀 About Me
 
-- 🏢 I’m currently working as Blockchain QA Engineer at [BlockApex Labs](https://blockapexlabs.com/).
+- 🏢 I’m currently working as Blockchain QA Engineer.
 - 🔍 Experienced in Manual Testing, Functional & Non-Functional Testing, and Test Automation tools like Cypress & Selenium.
 - 🌐 Actively Learning trending Tools and Technologies for QA Automation.
 
