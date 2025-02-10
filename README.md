@@ -14,33 +14,37 @@ Here are some ideas to get you started:
 -->
 ## 👋 Hi there, I'm Aqib Mehmood, an aspiring SDET from Pakistan 🇵🇰.
 
-I'm a Software Quality Assurance Engineer with a focus on ensuring the quality and security of decentralized applications (dApps). With a background of two years in Software Quality Assurance, I bring valuable experience to the world of blockchain technology.
+I have around four years of experience as a QA Engineer, primarily focused on testing the Blockchain & AI applications. 
 
 ## 🚀 About Me
 
-- 🏢 I’m currently working as Blockchain QA Engineer.
-- 🔍 Experienced in Manual Testing, Functional & Non-Functional Testing, and Test Automation tools like Cypress & Selenium.
-- 🌐 Actively Learning trending Tools and Technologies for QA Automation.
+- 🏢 I’m currently working as a QA Engineer - Blockchain & AI.
+- 🔍 Experienced in both manual & automated testing of mobile and web applications, along with API testing, Performance testing, and Security testing. 
+- 🌐 Actively Learning trending Tools and Technologies in Software Testing.
 
 ## 🛠️ Technologies & Tools
 
-- **Languages:** Java, JavaScript, Python, HTML/CSS, Bash
-- **Web Automation:** Selenium, Cypress
+- **Languages:** Java, JavaScript, TypeScript, Python, HTML/CSS, Bash
+- **Web & Mobile Automation:** Selenium, Cypress, Playwright, Appium (mobile app automation)
 - **Testing Frameworks:** TestNG, Chai, Mocha
-- **API Automation:** Cypress, Postman 
+- **API Automation:** Cypress, Postman, Apidog
 - **Performance Testing:** JMeter
 - **Design Pattern:** Page Object Model (POM)
 - **Version Control:** Github
-- **Project Management:** JIRA
+- **Project Management:** JIRA, Notion, Trello, Asana, etc.
 - **Security Testing:** Burp Suite
 
 ## 🔧 Skills
 
+- Automated Testing
 - Manual Testing
-- Automation Testing
+- API Testing
+- Performance Testing
 - Blockchain Application Testing
+- AI Application Testing
 - Smart Contract Unit Testing
 - dApp Testing
+- Security Testing
 
 ## 📜 Certification
 
@@ -48,8 +52,7 @@ I'm a Software Quality Assurance Engineer with a focus on ensuring the quality a
 
 ## 🌱 Currently Exploring
 
-- Advanced Techniques, Tools and Technologies in QA Automaion Testing.
-- Roadmap to become a Software Development Engineer in Test (SDET).
+- Advanced Techniques, Tools, and Technologies in QA Automation Testing.
 
 ## 📫 How to reach me
 
